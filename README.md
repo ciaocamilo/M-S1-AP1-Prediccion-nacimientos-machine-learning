@@ -14,9 +14,26 @@ El proyecto construye un modelo predictivo que, a partir de variables geográfic
 
 ---
 
+## Vista previa
+
+<p align="center">
+  <img src="assets/images/tendencia_nacional.png" alt="Tendencia nacional de nacimientos 2020-2024" width="49%">
+  <img src="assets/images/top_departamentos.png" alt="Top 10 departamentos por nacimientos" width="49%">
+</p>
+<p align="center">
+  <img src="assets/images/comparacion_modelos.png" alt="Comparación de métricas R² y MAPE entre modelos" width="80%">
+</p>
+
+---
+
 ## Estructura del repositorio
 
 ```
+├── assets/
+│   └── images/
+│       ├── tendencia_nacional.png
+│       ├── top_departamentos.png
+│       └── comparacion_modelos.png
 ├── data/
 │   ├── nac2020.csv
 │   ├── nac2021.csv
@@ -24,6 +41,8 @@ El proyecto construye un modelo predictivo que, a partir de variables geográfic
 │   └── nac2023.csv
 ├── notebook/
 │   └── Prediccion_nacimientos_ML.ipynb
+├── scripts/
+│   └── generar_imagenes_readme.py
 ├── requirements.txt
 └── README.md
 ```
